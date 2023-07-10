@@ -241,11 +241,11 @@ nav li a:hover {
     padding: 10px;
 }
 
-.pricingTable {
+.tableWrapper {
     width: 70%;
 }
 
-.pricingTable table {
+.tableWrapper table {
     font-family: 'Notable', sans-serif;
     font-size: 0.8em;
     border-collapse: collapse;
@@ -255,16 +255,16 @@ nav li a:hover {
     border-style: double;
     border-color: #000000;
 }
-.pricingTable table tr:nth-child(even) {background-color: rgb(235, 124, 224);}
+.tableWrapper table tr:nth-child(even) {background-color: rgb(235, 124, 224);}
 
-.pricingTable table thead tr {
+.tableWrapper table thead tr {
     background-color: #a8144d;
     color: #ffffff;
     text-align: left;
 }
 
-.pricingTable table th,
-.pricingTable table td {
+.tableWrapper table th,
+.tableWrapper table td {
     padding: 12px 15px;
 }
 
@@ -427,11 +427,11 @@ legend {
         flex-direction: column;
     }
 
-    .pricingTable {
+    .tableWrapper {
         width: 100%;
     }
 
-    .pricingTable table {
+    .tableWrapper table {
         width: 100%;
     }
 
@@ -556,7 +556,7 @@ legend {
     }
 
 
-    
+
     #logo,
     #videoPromotion {
         display: none;
@@ -642,11 +642,11 @@ legend {
         display: inline;
     }
 
-    .pricingTable {
+    .tableWrapper {
         width: 100%;
     }
 
-    .pricingTable table {
+    .tableWrapper table {
         font-size: 0.6em;
     }
 
